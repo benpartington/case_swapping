@@ -1,5 +1,5 @@
 const swap = (word) => {
-  return 'A'
+  return word.toUpperCase();
 }
 
 module.exports = swap;
