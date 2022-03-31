@@ -6,7 +6,7 @@ e.g. CodEwArs --> cODeWaRS
 
 Examples
 ""           ->   ""
-"CodeWars"   ->   "cODEwARS"
-"abc"        ->   "ABC"
-"ABC"        ->   "abc"
-"123235"     ->   "123235"
+"CodeWars"   ->   "cODEwARS"  
+"abc"        ->   "ABC"  
+"ABC"        ->   "abc"  
+"123235"     ->   "123235"  
