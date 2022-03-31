@@ -13,8 +13,12 @@ describe("swap", () => {
     expect(swap('A')).toBe('a');
   });
 
-  it("returns integer input unchanged", () => {
-    expect(swap(12345)).toBe(12345);
+  it("swaps case of multiple letters", () => {
+    expect(swap('Aa')).toBe('aA');
+  });
+
+  it("takes integer input", () => {
+    expect(swap("1234")).toBe("1234");
   });
 
 });
